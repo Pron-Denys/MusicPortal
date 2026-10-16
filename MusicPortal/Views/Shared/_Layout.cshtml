@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MusicPortal</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MusicPortal.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/MusicPortalStyle.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="nav-menu box-shadow">
+            <div class="header-menu">
+                <div class="logo-header">
+                    <a class="navbar-brand" asp-area="" asp-controller="Music" asp-action="Index">MusicPortal</a>
+                </div>
+                @if (Context.Session.GetString("IsAdmin") != null || Context.Session.GetString("IsActivated") != null)
+                {
+                       <div class="btn-registration">
+                            <a class="btn-registration-2 btn btn-red" style="margin-top: 0px" asp-controller="Account" asp-action="Exit" title="Вийти">Вийти</a>
+                       </div> 
+                }
+                else
+                {
+                     <div class="btn-registration">
+                        <a class="btn-registration-1 btn btn-blue" style="margin-top: 0px" asp-controller="Account" asp-action="Index" title="Увійти">Увійти</a>
+                        <a class="btn-registration-2" asp-controller="Account" asp-action="Registration" title="Зареєструватися">Зареєструватися</a>
+                    </div>
+                }
+            </div>
+        </nav>
+    </header>
+    <div class="conteiner-menu">
+        <div>
+            <aside class="sidebar">
+                <div>
+                    <!-- Навігація -->
+                    <nav>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a asp-controller="Music" asp-action="Index"><i class="fa-solid fa-chart-pie"></i> Головна</a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-controller="Genre" asp-action="Index"><i class="fa-solid fa-layer-group"></i> Жанри</a>
+                            </li>
+                            @if (Context.Session.GetString("IsAdmin") != null)
+                            {
+                                <li class="nav-item">
+                                   <a asp-controller="User" asp-action="Index"><i class="fa-solid fa-chart-line"></i> Користувачі</a>
+                                </li>   
+                            }
+                        </ul>
+                    </nav>
+                </div>              
+            </aside>
+        </div>
+        <div>
+            <div class="container">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer style="position: relative" class="footer">
+        <div class="footer-div">
+             &copy; 2026 - MusicPortal - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

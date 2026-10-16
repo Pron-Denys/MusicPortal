@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MusicPortal.Models.User>
+@{
+    Layout = "_Layout";
+}
+<div class="btn-add-song-conteiner add-genre">
+    <a asp-action="Create" class="btn-add-song">+ Додати користувача</a>
+</div>
+<div class="table-conteiner">
+    <table class="table-users">
+        <tr class="header-table">
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Вік</th>
+            <th>Логін</th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td class="card-user">@user.Name</td>
+                <td class="card-user">@user.Surname</td>
+                <td class="card-user">@user.Year</td>
+                <td class="card-user">@user.Login</td>
+                <td class="card-user"><a asp-action="Update" asp-route-id="@user.Id" class="btn btn-blue">Редагувати</a></td>
+                <td class="card-user"><a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-red">Видалити</a></td>
+            </tr>
+        }
+    </table>
+</div>

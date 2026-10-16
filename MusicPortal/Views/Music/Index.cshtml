@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MusicPortal.Models.Music>
+@{
+    Layout = "_Layout";
+}
+<div class="musics">
+    @if (Context.Session.GetString("IsAdmin") != null || Context.Session.GetString("IsActivated") != null)
+    {
+        <div class="btn-add-song-conteiner">
+            <a asp-controller="Music" asp-action="Create" class="btn-add-song">+ Додати пісню</a>
+        </div>
+    }
+    @foreach (var music in Model)
+    {
+        @if (Context.Session.GetString("IsAdmin") == "true")
+        {
+            <div class="card-music">
+            <img src="~/Poster/@music.Poster" />
+            <p>@music.Name</p>
+            <p>@music.Songwriter</p>
+            <audio controls>
+                <source src="~/Music/@music.Audio" type="audio/ogg"/>
+            </audio>
+            <a asp-action="Update" asp-route-id="@music.Id" class="btn btn-blue">Редагувати</a>
+            <a asp-action="Delete" asp-route-id="@music.Id" class="btn btn-red">Видалити</a>
+            <a href="/Download/@music.Audio" class="download-btn text">
+                <span class="icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                 </span>
+                    Завантажити
+                </a>
+        </div>
+        }
+        else
+        {
+            <div class="card-music">
+            <img src="~/Poster/@music.Poster" />
+            <p>@music.Name</p>
+            <p>@music.Songwriter</p>
+            <audio controls>
+                <source src="~/Music/@music.Audio" type="audio/ogg"/>
+            </audio>
+                <a href="/Download/@music.Audio" class="download-btn text">
+                    <span class="icon">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </span>
+                    Завантажити
+                </a>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MusicPortal.Models.Genre>
+@{
+    Layout = "_Layout";
+}
+@if (Context.Session.GetString("IsAdmin") != null)
+{
+    <div class="btn-add-song-conteiner add-genre">
+        <a asp-controller="Genre" asp-action="Create" class="btn-add-song">+ Додати жанр</a>
+    </div>
+}
+<div class="genre-show">
+    @foreach(var genre in Model)
+    {
+        <div class="card-genre">
+            <div>
+                <img width="100px" src="~/Genre Poster/@genre.Poster">
+            </div>
+            <p>@genre.Name</p>
+            @if (Context.Session.GetString("IsAdmin") != null)
+            {
+                <div>
+                    <a asp-action="Update" asp-route-id="@genre.Id" class="btn btn-blue">Редагувати</a>
+                    <a asp-action="Delete" asp-route-id="@genre.Id" class="btn btn-red">Видалити</a>
+                </div>
+            }
+        </div>
+    }
+</div>

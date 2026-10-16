@@ -1,0 +1,73 @@
+﻿@model MusicPortal.Models.User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MusicPortal</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MusicPortal.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/MusicPortalStyle.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="nav-menu box-shadow">
+            <div class="header-menu">
+                <div class="logo-header">
+                    <a class="navbar-brand" asp-area="" asp-controller="Music" asp-action="Index">MusicPortal</a>
+                </div>
+                <div class="btn-registration">
+                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">Увійти</a>
+                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">Зареєструватися</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <div>
+            <div class="container">
+                <main role="main" class="pb-3">
+                <h2 class="header-remove">Ви дійсно бажаєте видалити користувача ?</h2>
+                <div class="table-conteiner">
+                    <table class="table-users">
+                        <tr>
+                            <th>Ім'я</th>
+                            <td class="card-user">@Model.Name</td>
+                        </tr>
+                        <tr>
+                            <th>Прізвище</th>
+                            <td class="card-user">@Model.Surname</td>
+                        </tr>
+                        <tr>
+                            <th>Вік</th>
+                            <td class="card-user">@Model.Year</td>
+                        </tr>
+                        <tr>
+                            <th>Логін</th>
+                            <td class="card-user">@Model.Login</td>
+                        </tr>
+                    </table>
+                </div>    
+                <form asp-action="Delete">
+                        <input type="hidden" name="Id" value="@Model.Id"/>
+                        <input type="submit" value="Видалити" class="btn btn-red"/>
+                        <a asp-action="Index" class="modern-btn">Повернутися</a>
+                </form>
+            </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer class="footer footer-form">
+        <div class="footer-div">
+             &copy; 2026 - MusicPortal - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

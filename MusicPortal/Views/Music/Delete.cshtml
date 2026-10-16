@@ -1,0 +1,64 @@
+﻿@model MusicPortal.Models.Music
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MusicPortal</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MusicPortal.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/MusicPortalStyle.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="nav-menu box-shadow">
+            <div class="header-menu">
+                <div class="logo-header">
+                    <a class="navbar-brand" asp-area="" asp-controller="Music" asp-action="Index">MusicPortal</a>
+                </div>
+                <div class="btn-registration">
+                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">Увійти</a>
+                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">Зареєструватися</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <div>
+            <div class="container">
+                <main role="main" class="pb-3">
+                    <div class="info-delete-music">
+                        <h2>Ви дійсно бажаєте видалити пісню ?</h2>
+                        <div><img width="400px" src="~/Poster/@Model.Poster"/></div>
+                        <div>
+                            <audio controls>
+                                <source href="~/Poster/@Model.Audio"/>
+                            </audio>
+                        </div>
+                        <p>@Model.Name</p>
+                        <p>@Model.Songwriter</p>
+                        <p>@Model.Year</p>
+                        <div class="buttons-delete">
+                            <form asp-action="Delete">
+                                <input type="submit" value="Видалити" class="btn btn-red"/>
+                            </form>
+                            <a asp-controller="Music" asp-action="Index" class="modern-btn">Повернутися</a>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer class="footer footer-form" style="position: fixed">
+        <div class="footer-div">
+             &copy; 2026 - MusicPortal - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
