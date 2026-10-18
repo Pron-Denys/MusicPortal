@@ -2,14 +2,18 @@
 
 namespace MusicPortal.Controllers
 {
-    using System.Text;
+    using MusicPortal.Filters;
     using MusicPortal.Models;
-    using System.Security.Cryptography;
     using MusicPortal.Repository;
+    using System.Security.Cryptography;
+    using System.Text;
+
+    [Culture]
     public class UserController(IEnumerable<IRepository> repo) : Controller
     {
         public async Task<IActionResult> Index()
         {
+            HttpContext.Session.SetString("path", Request.Path);
             UserRepository? repository = repo.FirstOrDefault(r => r is UserRepository) as UserRepository;
             var users = await repository?.GetListAsync()!;
             return View(users);
@@ -38,6 +42,7 @@ namespace MusicPortal.Controllers
 
         public IActionResult Update(int id)
         {
+            HttpContext.Session.SetString("path", Request.Path);
             UserRepository? repository = repo.FirstOrDefault(r => r is UserRepository) as UserRepository;
             var user = repository?.FirstOrDefault(id) as User;
             if (user == null) return NotFound();
@@ -75,6 +80,7 @@ namespace MusicPortal.Controllers
 
         public IActionResult Delete(int id)
         {
+            HttpContext.Session.SetString("path", Request.Path);
             UserRepository? repository = repo.FirstOrDefault(r => r is UserRepository) as UserRepository;
             var user = repository?.FirstOrDefault(id) as User;
             return View(user);

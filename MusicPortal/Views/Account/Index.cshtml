@@ -1,4 +1,5 @@
 ﻿@model MusicPortal.Models.UserLogin
+@inject MusicPortal.Services.IRead ReadLanguage
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +20,27 @@
                     <a class="navbar-brand" asp-area="" asp-controller="Music" asp-action="Index">MusicPortal</a>
                 </div>
                 <div class="btn-registration">
-                    <a class="btn-registration-2 btn btn-blue" style="margin-top: 0px" asp-controller="Account" asp-action="Index">Увійти</a>
-                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">Зареєструватися</a>
+                    <a class="btn-registration-2 btn btn-blue" style="margin-top: 0px" asp-controller="Account" asp-action="Index">@Resources.Resource.Login</a>
+                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">@Resources.Resource.Registration</a>
+                    <div>
+                            <form asp-controller="Account" asp-action="ChangeLanguage">
+                                <select size="1" name="langCode">
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if(lang.Code == Context.Session.GetString("lang"))
+                                        {
+                                            <option value="@lang.Code">@lang.Name</option>
+                                        }
+                                    }
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if (lang.Code == Context.Session.GetString("lang")) continue;
+                                        <option value="@lang.Code">@lang.Name</option>
+                                    }
+                                </select>
+                                <input type="submit" value="@Resources.Resource.Submit" />
+                            </form>
+                        </div>
                 </div>
             </div>
         </nav>
@@ -33,10 +53,10 @@
         <div asp-validation-summary="ModelOnly" class="error"></div>
         @if (Context.Session.GetString("Admin") != null)
         {
-            <h2>Увійти від імені адмінстратора</h2>
+            <h2>@Resources.Resource.LogInAsAdministrator</h2>
         }
         else {
-            <h2>Увійти</h2>
+            <h2>@Resources.Resource.Login</h2>
         }
         <div class="input-group">
             <label asp-for="Login"></label>
@@ -48,14 +68,14 @@
             <input asp-for="Password" />
             <span asp-validation-for="Password" class="error"></span>
         </div>
-        <input type="submit" value="Відправити" class="submit-btn" />
+        <input type="submit" value="@Resources.Resource.Submit" class="submit-btn" />
          @if (Context.Session.GetString("Admin") != null)
         {
-                            <a asp-controller="Admin" asp-action="ToGoBack" class="modern-btn">Повернутися</a>
+            <a asp-controller="Admin" asp-action="ToGoBack" class="modern-btn">@Resources.Resource.Return</a>
         }
         else
         {
-            <a asp-controller="Music" asp-action="Index" class="modern-btn">Повернутися</a>
+            <a asp-controller="Music" asp-action="Index" class="modern-btn">@Resources.Resource.Return</a>
         }    
     </form>
 </div>

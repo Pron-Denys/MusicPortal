@@ -3,18 +3,22 @@
 namespace MusicPortal.Controllers
 {
     using Microsoft.EntityFrameworkCore;
+    using MusicPortal.Filters;
     using MusicPortal.Models;
     using MusicPortal.Repository;
+    [Culture]
     public class MusicController(IEnumerable<IRepository> repo, IWebHostEnvironment app) : Controller
     {
         public async Task<IActionResult> Index()
         {
+            HttpContext.Session.SetString("path", Request.Path);
             MusicRepository? repository = repo.FirstOrDefault(r => r is MusicRepository) as MusicRepository;
             return View(await repository?.GetListAsync()! as IEnumerable<Music>);
         }
 
         public async Task<IActionResult> Create()
         {
+            HttpContext.Session.SetString("path", Request.Path);
             GenreRepository? repository = repo.FirstOrDefault(r => r is GenreRepository) as GenreRepository;
             ViewBag.Genres = await repository?.GetListAsync()! as IEnumerable<Genre>;
             return View();
@@ -28,8 +32,8 @@ namespace MusicPortal.Controllers
             if (!ModelState.IsValid || fileAudio == null || filePoster == null)
             {
                 ViewBag.Genres = await repository?.GetListAsync()! as IEnumerator<Genre>;
-                if (fileAudio == null) ModelState.AddModelError("Audio", "Оберіть пісню");
-                if (filePoster == null) ModelState.AddModelError("Poster", "Оберіть пісню");
+                if (fileAudio == null) ModelState.AddModelError("Audio", Resources.Resource.ChooseSong);
+                if (filePoster == null) ModelState.AddModelError("Poster", Resources.Resource.ChoosePoster);
                 return View(musicModel);
             }
             Genre? genre = repository!.FirstOrDefault(musicModel.Genre!) as Genre;
@@ -50,6 +54,7 @@ namespace MusicPortal.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
+            HttpContext.Session.SetString("path", Request.Path);
             MusicRepository? repository = repo.FirstOrDefault(r => r is MusicRepository) as MusicRepository;
             var musics = repository?.IncludeToList() as List<Music>;
             Music music = null!;
@@ -118,6 +123,7 @@ namespace MusicPortal.Controllers
 
         public IActionResult Delete(int id)
         {
+            HttpContext.Session.SetString("path", Request.Path);
             MusicRepository? repository = repo.FirstOrDefault(r => r is MusicRepository) as MusicRepository;
             var music = repository?.FirstOrDefault(id) as Music;
             return View(music);

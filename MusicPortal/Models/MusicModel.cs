@@ -4,19 +4,21 @@
     public class MusicModel
     {
         public int Id { get; set; }
-        [Display(Name = "Назва пісні")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "Name")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public string? Name { get; set; }
-        [Display(Name = "Рік випуску")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "ReleaseYear")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public int Year { get; set; }
-        [Display(Name = "Виконавець")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "Songwriter")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public string? Songwriter { get; set; }
-        [Display(Name = "Жанр")]
-        [Required(ErrorMessage = "Оберіть жанр пісні")]
+        [Display(ResourceType = typeof(Resources.Resource),Name = "Genre")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public string? Genre { get; set; }
+        [Display(ResourceType = typeof(Resources.Resource), Name = "ChooseSong")]
         public string Audio { get; set; }
+        [Display(ResourceType = typeof(Resources.Resource), Name = "ChoosePoster")]
         public string Poster { get; set; }
     }
 }

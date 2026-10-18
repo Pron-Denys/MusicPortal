@@ -1,4 +1,5 @@
 ﻿@model MusicPortal.Models.Genre
+@inject MusicPortal.Services.IRead ReadLanguage
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +20,27 @@
                     <a class="navbar-brand" asp-area="" asp-controller="Music" asp-action="Index">MusicPortal</a>
                 </div>
                 <div class="btn-registration">
-                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">Увійти</a>
-                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">Зареєструватися</a>
+                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">@Resources.Resource.Login</a>
+                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">@Resources.Resource.Registration</a>
+                    <div>
+                            <form asp-controller="Account" asp-action="ChangeLanguage">
+                                <select size="1" name="langCode">
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if(lang.Code == Context.Session.GetString("lang"))
+                                        {
+                                            <option value="@lang.Code">@lang.Name</option>
+                                        }
+                                    }
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if (lang.Code == Context.Session.GetString("lang")) continue;
+                                        <option value="@lang.Code">@lang.Name</option>
+                                    }
+                                </select>
+                                <input type="submit" value="@Resources.Resource.Submit" />
+                            </form>
+                        </div>
                 </div>
             </div>
         </nav>
@@ -29,15 +49,15 @@
             <div class="container">
                 <main role="main" class="pb-3">
                     <div class="info-delete-music">
-                        <h2>Ви дійсно бажаєте видалити жанр ?</h2>
+                        <h2>@Resources.Resource.AreYouSureYouWantDeleteGenre</h2>
                         <div><img width="400px" src="~/Genre Poster/@Model.Poster"/></div>
                         <p>@Model.Name</p>
                         <div class="buttons-delete">
                             <form asp-action="Delete">
                                 <input type="hidden" asp-for="Id" value="@Model.Id"/>
-                                <input type="submit" value="Видалити" class="btn btn-red"/>
+                                <input type="submit" value="@Resources.Resource.Delete" class="btn btn-red"/>
                             </form>
-                            <a asp-controller="Genre" asp-action="Index" class="modern-btn">Повернутися</a>
+                            <a asp-controller="Genre" asp-action="Index" class="modern-btn">@Resources.Resource.Return</a>
                         </div>
                     </div>
                 </main>

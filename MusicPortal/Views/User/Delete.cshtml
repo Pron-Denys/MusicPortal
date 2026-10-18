@@ -1,4 +1,5 @@
 ﻿@model MusicPortal.Models.User
+@inject MusicPortal.Services.IRead ReadLanguage
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +20,28 @@
                     <a class="navbar-brand" asp-area="" asp-controller="Music" asp-action="Index">MusicPortal</a>
                 </div>
                 <div class="btn-registration">
-                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">Увійти</a>
-                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">Зареєструватися</a>
+                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">@Resources.Resource.Login</a>
+                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">@Resources.Resource.Registration</a>
+                    <div>
+                            <form asp-controller="Account" asp-action="ChangeLanguage">
+                                <select size="1" name="langCode">
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if(lang.Code == Context.Session.GetString("lang"))
+                                        {
+                                            <option value="@lang.Code">@lang.Name</option>
+                                        }
+                                    }
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if (lang.Code == Context.Session.GetString("lang")) continue;
+                                        <option value="@lang.Code">@lang.Name</option>
+                                    }
+                                </select>
+                                <input type="submit" value="@Resources.Resource.Submit" />
+                            </form>
+                        </div>
+            </div>
                 </div>
             </div>
         </nav>
@@ -28,31 +49,31 @@
         <div>
             <div class="container">
                 <main role="main" class="pb-3">
-                <h2 class="header-remove">Ви дійсно бажаєте видалити користувача ?</h2>
+                <h2 class="header-remove">@Resources.Resource.AreYouSureYouWantDeleteUser</h2>
                 <div class="table-conteiner">
                     <table class="table-users">
                         <tr>
-                            <th>Ім'я</th>
+                            <th>@Resources.Resource.FirstName</th>
                             <td class="card-user">@Model.Name</td>
                         </tr>
                         <tr>
-                            <th>Прізвище</th>
+                            <th>@Resources.Resource.Surname</th>
                             <td class="card-user">@Model.Surname</td>
                         </tr>
                         <tr>
-                            <th>Вік</th>
+                            <th>@Resources.Resource.Age</th>
                             <td class="card-user">@Model.Year</td>
                         </tr>
                         <tr>
-                            <th>Логін</th>
+                            <th>@Resources.Resource.Email</th>
                             <td class="card-user">@Model.Login</td>
                         </tr>
                     </table>
                 </div>    
                 <form asp-action="Delete">
                         <input type="hidden" name="Id" value="@Model.Id"/>
-                        <input type="submit" value="Видалити" class="btn btn-red"/>
-                        <a asp-action="Index" class="modern-btn">Повернутися</a>
+                        <input type="submit" value="@Resources.Resource.Delete" class="btn btn-red"/>
+                        <a asp-action="Index" class="modern-btn">@Resources.Resource.Return</a>
                 </form>
             </div>
                 </main>

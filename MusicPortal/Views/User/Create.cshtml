@@ -1,4 +1,5 @@
 ﻿@model MusicPortal.Models.RegistrationModel
+@inject MusicPortal.Services.IRead ReadLanguage
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +20,28 @@
                     <a class="navbar-brand" asp-area="" asp-controller="Music" asp-action="Index">MusicPortal</a>
                 </div>
                 <div class="btn-registration">
-                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">Увійти</a>
-                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">Зареєструватися</a>
+                    <a asp-controller="Account" asp-action="Index" class="btn-registration-1">@Resources.Resource.Login</a>
+                    <a asp-controller="Account" asp-action="Registration" class="btn-registration-2">@Resources.Resource.Registration</a>
+                    <div>
+                            <form asp-controller="Account" asp-action="ChangeLanguage">
+                                <select size="1" name="langCode">
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if(lang.Code == Context.Session.GetString("lang"))
+                                        {
+                                            <option value="@lang.Code">@lang.Name</option>
+                                        }
+                                    }
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if (lang.Code == Context.Session.GetString("lang")) continue;
+                                        <option value="@lang.Code">@lang.Name</option>
+                                    }
+                                </select>
+                                <input type="submit" value="@Resources.Resource.Submit" />
+                            </form>
+                        </div>
+                </div>
                 </div>
             </div>
         </nav>
@@ -62,13 +83,13 @@
             <span asp-validation-for="PasswordConfirm" class="error"></span>
         </div>
         <div>
-            <input type="checkbox" name="IsActived" value="Actived">Активувати</input>
+            <input type="checkbox" name="IsActived" value="Actived">@Resources.Resource.ActivatedUser</input>
         </div>
         <div>
-            <input type="checkbox" name="IsAdmin" value="Admin">Адміністратор</input>
+            <input type="checkbox" name="IsAdmin" value="Admin">@Resources.Resource.Administrator</input>
         </div>
-        <input type="submit" value="Зберегти" class="submit-btn" />
-        <a asp-controller="User" asp-action="Index" class="modern-btn">Повернутися</a>
+        <input type="submit" value="@Resources.Resource.Save" class="submit-btn" />
+        <a asp-controller="User" asp-action="Index" class="modern-btn">@Resources.Resource.Return</a>
     </form>
 </div>
 

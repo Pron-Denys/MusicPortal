@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MusicPortal.Models;
 using MusicPortal.Repository;
+using MusicPortal.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
@@ -9,6 +10,7 @@ builder.Services.AddDbContext<MusicPortalContext>(options => options.UseSqlServe
 builder.Services.AddUserRepository();
 builder.Services.AddGenreRepository();
 builder.Services.AddMusicRepository();
+builder.Services.AddReadLanguage();
 builder.Services.AddSession();
 var app = builder.Build();
 

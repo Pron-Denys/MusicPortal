@@ -6,7 +6,7 @@
     @if (Context.Session.GetString("IsAdmin") != null || Context.Session.GetString("IsActivated") != null)
     {
         <div class="btn-add-song-conteiner">
-            <a asp-controller="Music" asp-action="Create" class="btn-add-song">+ Додати пісню</a>
+            <a asp-controller="Music" asp-action="Create" class="btn-add-song">+ @Resources.Resource.AddSong</a>
         </div>
     }
     @foreach (var music in Model)
@@ -20,8 +20,8 @@
             <audio controls>
                 <source src="~/Music/@music.Audio" type="audio/ogg"/>
             </audio>
-            <a asp-action="Update" asp-route-id="@music.Id" class="btn btn-blue">Редагувати</a>
-            <a asp-action="Delete" asp-route-id="@music.Id" class="btn btn-red">Видалити</a>
+            <a asp-action="Update" asp-route-id="@music.Id" class="btn btn-blue">@Resources.Resource.Edit</a>
+            <a asp-action="Delete" asp-route-id="@music.Id" class="btn btn-red">@Resources.Resource.Delete</a>
             <a href="/Download/@music.Audio" class="download-btn text">
                 <span class="icon">
                     <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -30,7 +30,7 @@
                         <line x1="12" y1="15" x2="12" y2="3"></line>
                     </svg>
                  </span>
-                    Завантажити
+                    @Resources.Resource.Download
                 </a>
         </div>
         }
@@ -51,7 +51,7 @@
                             <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
                     </span>
-                    Завантажити
+                    @Resources.Resource.Download
                 </a>
             </div>
         }

@@ -3,27 +3,27 @@ namespace MusicPortal.Models
 {
     public class RegistrationModel
     {
-        [Display(Name = "Ім'я")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "FirstName")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public string? Name { get; set; }
-        [Display(Name = "Прізвище")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "Surname")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public string? Surname { get; set; }
-        [Display(Name = "Скільки вам років")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "HowOldAreYou")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public int Year { get; set; }
-        [Display(Name = "Логін")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "Email")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public string? Login { get; set; }
-        [Display(Name = "Пароль")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "Password")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         [DataType(DataType.Password)]
-        [StringLength(12, MinimumLength = 8, ErrorMessage = "Довжина пароля від 8 до 12 символів")]
+        [StringLength(12, MinimumLength = 8, ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorLenPassword")]
         public string? Password { get; set; }
-        [Display(Name = "Підтвердження паролю")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(ResourceType = typeof(Resources.Resource), Name = "PasswordСonfirmation")]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         [DataType(DataType.Password)]
-        [Compare("Password", ErrorMessage = "Паролі не збігаються")]
+        [Compare("Password", ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "PasswordsDoNotMatch")]
         public string? PasswordConfirm { get; set; }
     }
 }

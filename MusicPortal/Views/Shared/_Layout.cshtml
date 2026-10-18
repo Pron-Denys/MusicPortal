@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inject MusicPortal.Services.IRead ReadLanguage
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,14 +21,52 @@
                 @if (Context.Session.GetString("IsAdmin") != null || Context.Session.GetString("IsActivated") != null)
                 {
                        <div class="btn-registration">
-                            <a class="btn-registration-2 btn btn-red" style="margin-top: 0px" asp-controller="Account" asp-action="Exit" title="Вийти">Вийти</a>
+                        <a class="btn-registration-2 btn btn-red" style="margin-top: 0px" asp-controller="Account" asp-action="Exit" title="@Resources.Resource.Exit">@Resources.Resource.Exit</a>
+                        <div>
+                            <form asp-controller="Account" asp-action="ChangeLanguage">
+                                <select size="1" name="langCode">
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if(lang.Code == Context.Session.GetString("lang"))
+                                        {
+                                            <option value="@lang.Code">@lang.Name</option>
+                                        }
+                                    }
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if (lang.Code == Context.Session.GetString("lang")) continue;
+                                        <option value="@lang.Code">@lang.Name</option>
+                                    }
+                                </select>
+                                <input type="submit" value="@Resources.Resource.Submit" />
+                            </form>
+                        </div>
                        </div> 
                 }
                 else
                 {
                      <div class="btn-registration">
-                        <a class="btn-registration-1 btn btn-blue" style="margin-top: 0px" asp-controller="Account" asp-action="Index" title="Увійти">Увійти</a>
-                        <a class="btn-registration-2" asp-controller="Account" asp-action="Registration" title="Зареєструватися">Зареєструватися</a>
+                        <a class="btn-registration-1 btn btn-blue" style="margin-top: 0px" asp-controller="Account" asp-action="Index" title="@Resources.Resource.Login">@Resources.Resource.Login</a>
+                        <a class="btn-registration-2" asp-controller="Account" asp-action="Registration" title="@Resources.Resource.Registration">@Resources.Resource.Registration</a>
+                        <div>
+                            <form asp-controller="Account" asp-action="ChangeLanguage">
+                                <select size="1" name="langCode">
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if(lang.Code == Context.Session.GetString("lang"))
+                                        {
+                                            <option value="@lang.Code">@lang.Name</option>
+                                        }
+                                    }
+                                    @foreach (var lang in ReadLanguage.GetList())
+                                    {
+                                        @if (lang.Code == Context.Session.GetString("lang")) continue;
+                                        <option value="@lang.Code">@lang.Name</option>
+                                    }
+                                </select>
+                                <input type="submit" value="@Resources.Resource.Submit" />
+                            </form>
+                        </div>
                     </div>
                 }
             </div>
@@ -41,15 +80,15 @@
                     <nav>
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a asp-controller="Music" asp-action="Index"><i class="fa-solid fa-chart-pie"></i> Головна</a>
+                                <a asp-controller="Music" asp-action="Index"><i class="fa-solid fa-chart-pie"></i>@Resources.Resource.Home</a>
                             </li>
                             <li class="nav-item">
-                                <a asp-controller="Genre" asp-action="Index"><i class="fa-solid fa-layer-group"></i> Жанри</a>
+                                <a asp-controller="Genre" asp-action="Index"><i class="fa-solid fa-layer-group"></i>@Resources.Resource.Genres</a>
                             </li>
                             @if (Context.Session.GetString("IsAdmin") != null)
                             {
                                 <li class="nav-item">
-                                   <a asp-controller="User" asp-action="Index"><i class="fa-solid fa-chart-line"></i> Користувачі</a>
+                                    <a asp-controller="User" asp-action="Index"><i class="fa-solid fa-chart-line"></i>@Resources.Resource.Users</a>
                                 </li>   
                             }
                         </ul>

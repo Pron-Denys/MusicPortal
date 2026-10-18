@@ -1,16 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 namespace MusicPortal.Models
 {
     public class UserLogin
     {
-        [Display(Name = "Логін")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(Name = "Email", ResourceType = typeof(Resources.Resource))]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         public string? Login { get; set; }
-        [Display(Name = "Пароль")]
-        [Required(ErrorMessage = "Заповніть поле")]
+        [Display(Name = "Password", ResourceType = typeof(Resources.Resource))]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorFieldIsRequired")]
         [DataType(DataType.Password)]
-        [StringLength(12, MinimumLength = 8, ErrorMessage = "Довжина пароля від 8 до 12 символів")]
+        [StringLength(12, MinimumLength = 8, ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "ErrorLenPassword")]
         public string? Password { get; set; }
     }
 }

@@ -5,7 +5,7 @@
 @if (Context.Session.GetString("IsAdmin") != null)
 {
     <div class="btn-add-song-conteiner add-genre">
-        <a asp-controller="Genre" asp-action="Create" class="btn-add-song">+ Додати жанр</a>
+        <a asp-controller="Genre" asp-action="Create" class="btn-add-song">+ @Resources.Resource.AddUser</a>
     </div>
 }
 <div class="genre-show">
@@ -19,8 +19,8 @@
             @if (Context.Session.GetString("IsAdmin") != null)
             {
                 <div>
-                    <a asp-action="Update" asp-route-id="@genre.Id" class="btn btn-blue">Редагувати</a>
-                    <a asp-action="Delete" asp-route-id="@genre.Id" class="btn btn-red">Видалити</a>
+                    <a asp-action="Update" asp-route-id="@genre.Id" class="btn btn-blue">@Resources.Resource.Edit</a>
+                    <a asp-action="Delete" asp-route-id="@genre.Id" class="btn btn-red">@Resources.Resource.Delete</a>
                 </div>
             }
         </div>

@@ -1,7 +1,7 @@
 ﻿header nav .header-menu {
     display: flex;
     flex-direction: row;
-    gap: 1200px;
+    gap: 1000px;
 }
 
 .registration-container {
@@ -575,9 +575,11 @@ footer {
     box-shadow: 0 8px 20px rgba(0, 198, 255, 0.4);
 }
 
+.header-menu
+
 .btn-blue:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 25px rgba(0, 198, 255, 0.6);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(0, 198, 255, 0.6);
 }
 
 .btn-blue:active {
@@ -669,7 +671,7 @@ footer {
   box-shadow: 0 6px 20px rgba(0, 102, 255, 0.5);
   transform: translateY(-2px); /* Легке підняття вгору */
 }
-genre-show
+
 /* Ефект при натисканні */
 .modern-btn:active {
     transform: translateY(0);
