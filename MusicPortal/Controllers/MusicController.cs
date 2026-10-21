@@ -9,11 +9,34 @@ namespace MusicPortal.Controllers
     [Culture]
     public class MusicController(IEnumerable<IRepository> repo, IWebHostEnvironment app) : Controller
     {
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? nameMusic, int idGenre, int page = 1, SortState sortorder = SortState.NameAsc)
         {
             HttpContext.Session.SetString("path", Request.Path);
+            const int maxElementCount = 5;
             MusicRepository? repository = repo.FirstOrDefault(r => r is MusicRepository) as MusicRepository;
-            return View(await repository?.GetListAsync()! as IEnumerable<Music>);
+            List<Music>? musics = repository?.IncludeToList()! as List<Music>;
+            musics = sortorder switch
+            {
+                SortState.NameAsc => musics?.OrderBy(m => m.Name).ToList(),
+                SortState.NameDesc => musics?.OrderByDescending(m => m.Name).ToList(),
+                SortState.SongwriterAsc => musics?.OrderBy(m => m.Songwriter).ToList(),
+                SortState.SongwriterDesc => musics?.OrderByDescending(m => m.Songwriter).ToList(),
+                _ => musics?.OrderBy(m => m.Name).ToList()
+            };
+            if (nameMusic != null)
+                musics = musics?.Where(m => m.Name == nameMusic).ToList();
+            if (idGenre != 0)
+                musics = musics?.Where(m => m.Genre?.Id == idGenre).ToList();
+            int count = musics!.Count();
+            musics = musics?.Skip((page - 1) * maxElementCount).Take(maxElementCount).ToList();
+            GenreRepository? genreRepo = repo.FirstOrDefault(r => r is GenreRepository) as GenreRepository;
+            var genres = await genreRepo?.GetListAsync()! as List<Genre>;
+            Genre? selectGenre = genreRepo.FirstOrDefault(idGenre!) as Genre;
+            DataFilteringViewModel filter = new DataFilteringViewModel(nameMusic!, genres!, selectGenre! );
+            PaginationViewModel pagination = new PaginationViewModel(page, count, maxElementCount);
+            SortViewModel sort = new SortViewModel(sortorder);
+            IndexViewModel model = new IndexViewModel { Page = pagination, Musics = musics!, Filter = filter, Sort = sort };
+            return View(model);
         }
 
         public async Task<IActionResult> Create()

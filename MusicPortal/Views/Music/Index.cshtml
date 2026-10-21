@@ -1,6 +1,8 @@
-﻿@model IEnumerable<MusicPortal.Models.Music>
+﻿@model MusicPortal.Models.IndexViewModel
 @{
     Layout = "_Layout";
+    int nextPage = Model.Page!.Page + 1;
+    int previosPage = Model.Page.Page - 1;
 }
 <div class="musics">
     @if (Context.Session.GetString("IsAdmin") != null || Context.Session.GetString("IsActivated") != null)
@@ -9,20 +11,35 @@
             <a asp-controller="Music" asp-action="Create" class="btn-add-song">+ @Resources.Resource.AddSong</a>
         </div>
     }
-    @foreach (var music in Model)
+    <div class="card-music" style="justify-content: start;">
+        <form method="get" asp-action="Index">
+            <label>@Resources.Resource.Name</label><label class="label-genre">@Resources.Resource.Genre</label><br />
+            <input type="text" name="nameMusic" value="@Model!.Filter!.Name" placeholder="@Resources.Resource.EnterTheName..."/>
+            <select class="list-genre" size="1" asp-items="@Model.Filter.Genres" asp-for="@Model.Filter.SelectedGenre.Id" name="idGenre">
+            </select>
+            <input type="submit" value="@Resources.Resource.Filter" class="btn-filter" />
+        </form>
+    </div>
+    <div class="card-music" style="justify-content: start;">
+        <a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort!.Name" asp-route-nameMusic="@Model.Filter!.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id" style="margin-left: 80px;">@Resources.Resource.Name</a>
+        <a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort!.Songwriter" asp-route-nameMusic="@Model.Filter.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id">@Resources.Resource.Songwriter</a>
+    </div>
+    @if (Model.Musics.Count() != 0)
     {
-        @if (Context.Session.GetString("IsAdmin") == "true")
+        @foreach (var music in Model.Musics)
         {
-            <div class="card-music">
-            <img src="~/Poster/@music.Poster" />
-            <p>@music.Name</p>
-            <p>@music.Songwriter</p>
-            <audio controls>
-                <source src="~/Music/@music.Audio" type="audio/ogg"/>
-            </audio>
-            <a asp-action="Update" asp-route-id="@music.Id" class="btn btn-blue">@Resources.Resource.Edit</a>
-            <a asp-action="Delete" asp-route-id="@music.Id" class="btn btn-red">@Resources.Resource.Delete</a>
-            <a href="/Download/@music.Audio" class="download-btn text">
+            @if (Context.Session.GetString("IsAdmin") == "true")
+            {
+                <div class="card-music">
+                <img src="~/Poster/@music.Poster" />
+                <p>@music.Name</p>
+                <p>@music.Songwriter</p>
+                <audio controls>
+                    <source src="~/Music/@music.Audio" type="audio/ogg"/>
+                </audio>
+                <a asp-action="Update" asp-route-id="@music.Id" class="btn btn-blue">@Resources.Resource.Edit</a>
+                <a asp-action="Delete" asp-route-id="@music.Id" class="btn btn-red">@Resources.Resource.Delete</a>
+                <a href="/Download/@music.Audio" class="download-btn text">
                 <span class="icon">
                     <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
@@ -32,17 +49,17 @@
                  </span>
                     @Resources.Resource.Download
                 </a>
-        </div>
-        }
-        else
-        {
-            <div class="card-music">
-            <img src="~/Poster/@music.Poster" />
-            <p>@music.Name</p>
-            <p>@music.Songwriter</p>
-            <audio controls>
-                <source src="~/Music/@music.Audio" type="audio/ogg"/>
-            </audio>
+            </div>
+            }
+            else
+            {
+                <div class="card-music">
+                <img src="~/Poster/@music.Poster" />
+                <p>@music.Name</p>
+                <p>@music.Songwriter</p>
+                <audio controls>
+                    <source src="~/Music/@music.Audio" type="audio/ogg"/>
+                </audio>
                 <a href="/Download/@music.Audio" class="download-btn text">
                     <span class="icon">
                         <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -54,6 +71,33 @@
                     @Resources.Resource.Download
                 </a>
             </div>
+            }
         }
+    }
+    else
+    {
+        <h2 class="not-found-h2">@Resources.Resource.NotFound!</h2>
+    }
+    @if (Model.Page.TotalPages > 1)
+    {
+        <div class="pagination">
+            @if (Model.Page.HasPreviosPage)
+            {
+                <button class="element-pagination"><a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort.Current" asp-route-nameMusic="@Model.Filter.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id" asp-route-page="@previosPage">@Resources.Resource.Back</a></button>
+            }
+            else
+            {
+                <button disabled class="element-pagination"><a>@Resources.Resource.Back</a></button>
+            }
+            <span class="element-pagination">@Model.Page.Page - @Model.Page.TotalPages</span>
+            @if (Model.Page.HasNextPage)
+            {
+                <button class="element-pagination"><a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort.Current" asp-route-nameMusic="@Model.Filter.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id" asp-route-page="@nextPage">@Resources.Resource.Forward</a></button>
+            }
+            else
+            {
+                <button disabled class="element-pagination"><a>@Resources.Resource.Forward</a></button>               
+            }
+        </div>
     }
 </div>

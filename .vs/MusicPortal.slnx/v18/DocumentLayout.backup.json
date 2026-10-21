@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\MusicPortal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\views\\music\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\views\\music\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\resources\\resource.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\resources\\resource.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\wwwroot\\css\\musicportalstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\wwwroot\\css\\musicportalstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\musicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\repository\\musicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\datafilteringviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\datafilteringviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\filters\\cultureattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\filters\\cultureattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\musicportalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\musicportalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\musicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\musicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\sortstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\sortstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\views\\music\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\resources\\resource.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\resources\\resource.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -57,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\views\\music\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\views\\music\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\views\\music\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\views\\music\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\views\\genre\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,28 +139,12 @@
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\filters\\cultureattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\filters\\cultureattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\musicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\musicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\wwwroot\\css\\musicportalstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\wwwroot\\css\\musicportalstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\musicportalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\models\\musicportalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,28 +183,12 @@
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\services\\readlanguageexstensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\genrerepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\repository\\genrerepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\musicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\repository\\musicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|solutionrelative:musicportal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D42B612B-E61E-3459-F6D5-8CBF4FA88429}|MusicPortal\\MusicPortal.csproj|c:\\users\\user\\source\\repos\\musicportal\\musicportal\\repository\\musicrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -198,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 50,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -262,80 +282,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CultureAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Filters\\CultureAttribute.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Filters\\CultureAttribute.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Filters\\CultureAttribute.cs",
-              "RelativeToolTip": "MusicPortal\\Filters\\CultureAttribute.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBQAAABAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MusicController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\MusicController.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Controllers\\MusicController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\MusicController.cs",
+              "RelativeToolTip": "MusicPortal\\Controllers\\MusicController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T09:40:31.233Z",
+              "WhenOpened": "2026-10-10T13:25:48.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ReadLanguageExstensions.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguageExstensions.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Services\\ReadLanguageExstensions.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguageExstensions.cs",
-              "RelativeToolTip": "MusicPortal\\Services\\ReadLanguageExstensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T09:34:56.935Z"
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Music\\Index.cshtml",
+              "RelativeDocumentMoniker": "MusicPortal\\Views\\Music\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Music\\Index.cshtml*",
+              "RelativeToolTip": "MusicPortal\\Views\\Music\\Index.cshtml*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-10T13:29:41.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ReadLanguage.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguage.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Services\\ReadLanguage.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguage.cs",
-              "RelativeToolTip": "MusicPortal\\Services\\ReadLanguage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DataFilteringViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\DataFilteringViewModel.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Models\\DataFilteringViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\DataFilteringViewModel.cs",
+              "RelativeToolTip": "MusicPortal\\Models\\DataFilteringViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T09:22:42.481Z"
+              "WhenOpened": "2026-10-20T15:10:04.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IRead.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\IRead.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Services\\IRead.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\IRead.cs",
-              "RelativeToolTip": "MusicPortal\\Services\\IRead.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\IndexViewModel.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Models\\IndexViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\IndexViewModel.cs",
+              "RelativeToolTip": "MusicPortal\\Models\\IndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T09:20:35.955Z"
+              "WhenOpened": "2026-10-20T16:33:03.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Language.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\Language.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Models\\Language.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\Language.cs",
-              "RelativeToolTip": "MusicPortal\\Models\\Language.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PaginationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\PaginationViewModel.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Models\\PaginationViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\PaginationViewModel.cs",
+              "RelativeToolTip": "MusicPortal\\Models\\PaginationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T09:18:21.671Z"
+              "WhenOpened": "2026-10-20T16:04:29.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\IRepository.cs",
-              "RelativeToolTip": "MusicPortal\\Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MusicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\MusicRepository.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Repository\\MusicRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\MusicRepository.cs",
+              "RelativeToolTip": "MusicPortal\\Repository\\MusicRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T08:16:43.703Z"
+              "WhenOpened": "2026-10-15T08:31:22.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "MusicPortalStyle.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
+              "RelativeDocumentMoniker": "MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
+              "RelativeToolTip": "MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
+              "ViewState": "AgIAAOoCAAAAAAAAAAAowPoCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-10T14:13:54.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Resource.resx",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Resources\\Resource.resx",
               "RelativeDocumentMoniker": "MusicPortal\\Resources\\Resource.resx",
@@ -347,7 +385,152 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Program.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Program.cs",
+              "RelativeToolTip": "MusicPortal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T11:37:09.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MusicPortal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MusicPortal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAASwHIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-10T13:34:55.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "MusicPortal\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:25:04.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MusicPortalContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\MusicPortalContext.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Models\\MusicPortalContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\MusicPortalContext.cs",
+              "RelativeToolTip": "MusicPortal\\Models\\MusicPortalContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAASwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T12:02:16.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CultureAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Filters\\CultureAttribute.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Filters\\CultureAttribute.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Filters\\CultureAttribute.cs",
+              "RelativeToolTip": "MusicPortal\\Filters\\CultureAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:40:31.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReadLanguage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguage.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Services\\ReadLanguage.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguage.cs",
+              "RelativeToolTip": "MusicPortal\\Services\\ReadLanguage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:22:42.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ReadLanguageExstensions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguageExstensions.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Services\\ReadLanguageExstensions.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\ReadLanguageExstensions.cs",
+              "RelativeToolTip": "MusicPortal\\Services\\ReadLanguageExstensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:34:56.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SortState.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\SortState.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Models\\SortState.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\SortState.cs",
+              "RelativeToolTip": "MusicPortal\\Models\\SortState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T14:58:19.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SortViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\SortViewModel.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Models\\SortViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\SortViewModel.cs",
+              "RelativeToolTip": "MusicPortal\\Models\\SortViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T15:00:21.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IRead.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\IRead.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Services\\IRead.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Services\\IRead.cs",
+              "RelativeToolTip": "MusicPortal\\Services\\IRead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:20:35.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\Language.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Models\\Language.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\Language.cs",
+              "RelativeToolTip": "MusicPortal\\Models\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:18:21.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "MusicPortal\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\IRepository.cs",
+              "RelativeToolTip": "MusicPortal\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:16:43.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "GenreRepositoryExtensions.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\GenreRepositoryExtensions.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Repository\\GenreRepositoryExtensions.cs",
@@ -359,19 +542,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 13,
               "Title": "GenreRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\GenreRepository.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Repository\\GenreRepository.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\GenreRepository.cs",
               "RelativeToolTip": "MusicPortal\\Repository\\GenreRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T12:00:30.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "MusicRepositoryExtensions.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\MusicRepositoryExtensions.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Repository\\MusicRepositoryExtensions.cs",
@@ -383,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "UserRepositoryExtensions.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\UserRepositoryExtensions.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Repository\\UserRepositoryExtensions.cs",
@@ -395,31 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "MusicRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\MusicRepository.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Repository\\MusicRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\MusicRepository.cs",
-              "RelativeToolTip": "MusicPortal\\Repository\\MusicRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwDEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T08:31:22.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "MusicPortal\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T08:25:04.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\User\\Delete.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\User\\Delete.cshtml",
@@ -427,12 +586,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\User\\Delete.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-15T07:16:39.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-15T07:16:39.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\User\\Update.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\User\\Update.cshtml",
@@ -440,12 +598,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\User\\Update.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-14T18:33:47.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T18:33:47.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\User\\Create.cshtml",
@@ -453,12 +610,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\User\\Create.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-14T17:16:47.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T17:16:47.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\User\\Index.cshtml",
@@ -466,12 +622,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-14T16:25:38.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T16:25:38.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Controllers\\UserController.cs",
@@ -479,12 +634,11 @@
               "RelativeToolTip": "MusicPortal\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T16:11:42.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T16:11:42.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Genre\\Delete.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Genre\\Delete.cshtml",
@@ -492,12 +646,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Genre\\Delete.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-14T15:56:14.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T15:56:14.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Genre\\Update.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Genre\\Update.cshtml",
@@ -505,12 +658,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Genre\\Update.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwCoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-14T15:11:20.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T15:11:20.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Genre\\Create.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Genre\\Create.cshtml",
@@ -518,12 +670,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Genre\\Create.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-14T08:36:53.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T08:36:53.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Shared\\_Layout.cshtml.css",
@@ -535,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Genre\\Index.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Genre\\Index.cshtml",
@@ -543,12 +694,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Genre\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-14T08:13:15.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T08:13:15.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "GenreController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\GenreController.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Controllers\\GenreController.cs",
@@ -556,12 +706,11 @@
               "RelativeToolTip": "MusicPortal\\Controllers\\GenreController.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAowCEAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T20:21:38.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T20:21:38.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Music\\Delete.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Music\\Delete.cshtml",
@@ -569,12 +718,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Music\\Delete.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-13T19:38:15.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T19:38:15.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Music\\Update.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Music\\Update.cshtml",
@@ -582,12 +730,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Music\\Update.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-13T14:42:07.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T14:42:07.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 14,
               "Title": "MusicModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\MusicModel.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Models\\MusicModel.cs",
@@ -595,12 +742,11 @@
               "RelativeToolTip": "MusicPortal\\Models\\MusicModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T16:54:42.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T16:54:42.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Music\\Create.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Music\\Create.cshtml",
@@ -608,12 +754,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Music\\Create.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-11T16:51:25.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T16:51:25.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Controllers\\AdminController.cs",
@@ -621,12 +766,11 @@
               "RelativeToolTip": "MusicPortal\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T11:01:12.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T11:01:12.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "Registration.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Account\\Registration.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Account\\Registration.cshtml",
@@ -634,12 +778,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Account\\Registration.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-11T08:36:11.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T08:36:11.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "RegistrationModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\RegistrationModel.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Models\\RegistrationModel.cs",
@@ -651,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\UserLogin.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Models\\UserLogin.cs",
@@ -663,19 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MusicPortalStyle.css",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
-              "RelativeDocumentMoniker": "MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
-              "RelativeToolTip": "MusicPortal\\wwwroot\\css\\MusicPortalStyle.css",
-              "ViewState": "AgIAAIUCAAAAAAAAAAAAAKECAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-10-10T14:13:54.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -687,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\_ViewStart.cshtml",
@@ -699,46 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MusicPortal\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "MusicPortal\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBcAAADCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-10T13:34:55.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Music\\Index.cshtml",
-              "RelativeDocumentMoniker": "MusicPortal\\Views\\Music\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Music\\Index.cshtml",
-              "RelativeToolTip": "MusicPortal\\Views\\Music\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-10T13:29:41.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MusicController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\MusicController.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Controllers\\MusicController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\MusicController.cs",
-              "RelativeToolTip": "MusicPortal\\Controllers\\MusicController.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAowCMAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T13:25:48.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\Account\\Index.cshtml",
@@ -746,12 +838,11 @@
               "RelativeToolTip": "MusicPortal\\Views\\Account\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAUwCoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-10T13:23:09.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-10T13:23:09.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Controllers\\AccountController.cs",
@@ -759,12 +850,11 @@
               "RelativeToolTip": "MusicPortal\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T13:21:07.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-10T13:21:07.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\appsettings.json",
               "RelativeDocumentMoniker": "MusicPortal\\appsettings.json",
@@ -776,19 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MusicPortalContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\MusicPortalContext.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Models\\MusicPortalContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\MusicPortalContext.cs",
-              "RelativeToolTip": "MusicPortal\\Models\\MusicPortalContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T12:02:16.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\User.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Models\\User.cs",
@@ -800,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "Music.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\Music.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Models\\Music.cs",
@@ -812,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "MusicPortal\\Models\\Genre.cs",
@@ -820,12 +898,11 @@
               "RelativeToolTip": "MusicPortal\\Models\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T11:43:48.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-10T11:43:48.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MusicPortal\\Views\\_ViewImports.cshtml",
@@ -834,18 +911,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-10T11:42:03.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Program.cs",
-              "RelativeDocumentMoniker": "MusicPortal\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MusicPortal\\MusicPortal\\Program.cs",
-              "RelativeToolTip": "MusicPortal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T11:37:09.403Z"
             }
           ]
         }

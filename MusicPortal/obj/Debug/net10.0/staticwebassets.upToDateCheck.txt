@@ -70,30 +70,73 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\Music\Ai Ruins Everything - Qui Gon Gin and juice.mp3
+wwwroot\Music\Autograf feat. Burko - Voodoo.mp3
 wwwroot\Music\B.U.G. Mafia - Arta Si Precizie (Intro).mp3
 wwwroot\Music\Carla’s Dreams - Mai e.mp3
 wwwroot\Music\Cat Burns - Is It That Deep_.mp3
 wwwroot\Music\Charlotte Cardin - Memories (Souvenirs).mp3
 wwwroot\Music\Diggy Graves - Murder Me.mp3
+wwwroot\Music\GIMS - EMPRISE.mp3
+wwwroot\Music\GIMS - MONICA.mp3
+wwwroot\Music\GIMS - OVERTON.mp3
+wwwroot\Music\Jazzy - Depart.mp3
+wwwroot\Music\KLER - На вінілі.mp3
+wwwroot\Music\KLER - Над хмарами (The Budchuk Remix).mp3
+wwwroot\Music\KLER - Тисяча пісень.mp3
+wwwroot\Music\Malik - Obiymy 2.0.mp3
 wwwroot\Music\Manon Lisa - Jeune Demoiselle.mp3
 wwwroot\Music\Passenger - Boomerang.mp3
 wwwroot\Music\Patrick Sébastien - Toc toc.mp3
+wwwroot\Music\SAMCHUK - Балаган.mp3
+wwwroot\Music\SAMCHUK - Боні і Клайд.mp3
+wwwroot\Music\SAMCHUK - Чародійка.mp3
+wwwroot\Music\STOSLIV - do what you love.mp3
+wwwroot\Music\STOSLIV - i can feel.mp3
+wwwroot\Music\STOSLIV - One shot.mp3
+wwwroot\Music\Teddy Swims - Break Up in Reverse (Dj Dark Remix).mp3
+wwwroot\Music\Teddy Swims - God Went Crazy.mp3
+wwwroot\Music\Teddy Swims - Mr. Know It All (Dj Dark Remix).mp3
+wwwroot\Music\The Haunt - Claws.mp3
+wwwroot\Music\The Haunt - New Addiction.mp3
+wwwroot\Music\The Haunt - Until I Die.mp3
 wwwroot\Music\VOILÀ - Voodoo.mp3
+wwwroot\Music\Yogen - 5 Хвилин.mp3
+wwwroot\Music\YOGEN - Моно.mp3
 wwwroot\Music\Young Nudy - Who Dat Is.mp3
+wwwroot\Poster\24136061.webp
+wwwroot\Poster\6c8aea445a_6110.webp
 wwwroot\Poster\artworks-P997Ad7zJ7EDAzDu-kzzTog-t500x500.jpg
+wwwroot\Poster\autograf-feat_-burko-voodoo.webp
 wwwroot\Poster\b_u_g_-mafia-arta-si-precizie-intro.webp
 wwwroot\Poster\carlas-dreams-mai-e.webp
 wwwroot\Poster\cat-burns-is-it-that-deep.webp
 wwwroot\Poster\charlotte-cardin-memories-souvenirs.webp
+wwwroot\Poster\cover-of-mono-by-yogen.webp
+wwwroot\Poster\cover-of-nad-khmaramy-the-budchuk-remix-by-kler-the-budchuk.webp
+wwwroot\Poster\cover-of-one-shot-by-stosliv.webp
+wwwroot\Poster\da62faf64a_fault.webp
 wwwroot\Poster\diggy-graves-murder-me.webp
+wwwroot\Poster\gims-emprise.webp
+wwwroot\Poster\gims-monica.webp
+wwwroot\Poster\gims-overton.webp
+wwwroot\Poster\jazzy-depart.webp
+wwwroot\Poster\kler-tisjacha-pisen.webp
+wwwroot\Poster\malik-obiymy-2_0.webp
 wwwroot\Poster\manon-lisa-jeune-demoiselle.webp
 wwwroot\Poster\passenger-boomerang.webp
 wwwroot\Poster\posters-hiphop-dance.jpg
+wwwroot\Poster\samchuk-balagan.webp
+wwwroot\Poster\samchuk-boni-i-klajd.webp
+wwwroot\Poster\samchuk-charodijka.webp
+wwwroot\Poster\stosliv-do-what-you-love.webp
+wwwroot\Poster\teddy-swims-break-up-in-reverse-dj-dark-remix.webp
+wwwroot\Poster\teddy-swims-mr_-know-it-all-dj-dark-remix.webp
+wwwroot\Poster\the-haunt-claws.webp
+wwwroot\Poster\the-haunt-until-i-die.webp
 wwwroot\Poster\toc-toc-cover.webp
 wwwroot\Poster\voila-voodoo.webp
 wwwroot\Poster\young-nudy-who-dat-is.webp
-C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\favicon.ico
-C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\css\site.css
 C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\jquery\dist\jquery.slim.js
@@ -153,5 +196,6 @@ C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\bootstrap\dist\cs
 C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\js\site.js
-C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\css\site.css
+C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\favicon.ico
 C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\css\MusicPortalStyle.css
+C:\Users\User\source\repos\MusicPortal\MusicPortal\wwwroot\lib\jquery\LICENSE.txt

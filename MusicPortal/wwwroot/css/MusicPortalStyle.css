@@ -340,6 +340,40 @@
     gap: 40px;
 }
 
+.pagination {
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+.element-pagination {
+    background-color: #0d130e; /* Темний/чорний фон кнопки */
+    color: #00ff87; /* Яскраво-зелений колір тексту */
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #00ff87;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.card-header {
+    margin-top: 10px;
+    padding-bottom: 0px;
+    gap: 10px;
+    padding: 12px 24px;
+    background-color: #0d130e; /* Темний/чорний фон кнопки */
+    color: #00ff87; /* Яскраво-зелений колір тексту */
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #00ff87;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 135, 0.4), inset 0 0 10px rgba(0, 255, 135, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -676,4 +710,54 @@ footer {
 .modern-btn:active {
     transform: translateY(0);
     box-shadow: 0 2px 10px rgba(0, 102, 255, 0.3);
+}
+
+.not-found-h2 {
+    text-align: center;
+    color: #00ff87;
+    margin-top: 40px;
+}
+
+.list-genre {
+    height: 30px;
+}
+
+.label-genre {
+    margin-left: 150px;
+}
+
+.a-btn {
+    text-decoration: none;
+    color: #00ff87;
+}
+
+.btn-filter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-filter:hover {
+  background-color: #222d3b;
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  box-shadow: 0 0 16px rgba(0, 255, 135, 0.25);
+  transform: translateY(-2px);
+}
+
+.btn-filter:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 255, 135, 0.2);
 }

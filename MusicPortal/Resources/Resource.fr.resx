@@ -237,4 +237,19 @@
   <data name="IncorrectUsernameOrPassword" xml:space="preserve">
     <value>Identifiant ou mot de passe incorrect</value>
   </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrer</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>En avant</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>En arrière</value>
+  </data>
+  <data name="EnterTheName" xml:space="preserve">
+    <value>Entrez le nom</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Non trouvé</value>
+  </data>
 </root>

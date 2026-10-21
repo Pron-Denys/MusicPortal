@@ -233,9 +233,23 @@
   </data>
   <data name="Age" xml:space="preserve">
     <value>Вік</value>
-    <comment>comment</comment>
   </data>
   <data name="IncorrectUsernameOrPassword" xml:space="preserve">
     <value>Не правильний логін або пароль</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Фільтрувати</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="EnterTheName" xml:space="preserve">
+    <value>Введіть назву</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Не знайдено</value>
   </data>
 </root>

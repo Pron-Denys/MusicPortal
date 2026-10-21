@@ -90,6 +90,7 @@ C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\rjsmcshtml.
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\scopedcss\bundle\MusicPortal.styles.css
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\scopedcss\projectbundle\MusicPortal.bundle.scp.css
+C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\compressed\p9j5pw2cp6-{0}-8lc09w50lv-8lc09w50lv.gz
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\compressed\vqjmq3kh8u-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\compressed\cplpwtuhp9-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\compressed\efrotm5y90-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
@@ -166,4 +167,3 @@ C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\refint\Musi
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\MusicPortal.pdb
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\MusicPortal.genruntimeconfig.cache
 C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\ref\MusicPortal.dll
-C:\Users\User\source\repos\MusicPortal\MusicPortal\obj\Debug\net10.0\compressed\p9j5pw2cp6-{0}-bxgebf3k7h-bxgebf3k7h.gz
