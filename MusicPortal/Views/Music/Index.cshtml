@@ -11,18 +11,10 @@
             <a asp-controller="Music" asp-action="Create" class="btn-add-song">+ @Resources.Resource.AddSong</a>
         </div>
     }
+    <data-filtering action="Index" filter="@Model.Filter"></data-filtering>
     <div class="card-music" style="justify-content: start;">
-        <form method="get" asp-action="Index">
-            <label>@Resources.Resource.Name</label><label class="label-genre">@Resources.Resource.Genre</label><br />
-            <input type="text" name="nameMusic" value="@Model!.Filter!.Name" placeholder="@Resources.Resource.EnterTheName..."/>
-            <select class="list-genre" size="1" asp-items="@Model.Filter.Genres" asp-for="@Model.Filter.SelectedGenre.Id" name="idGenre">
-            </select>
-            <input type="submit" value="@Resources.Resource.Filter" class="btn-filter" />
-        </form>
-    </div>
-    <div class="card-music" style="justify-content: start;">
-        <a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort!.Name" asp-route-nameMusic="@Model.Filter!.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id" style="margin-left: 80px;">@Resources.Resource.Name</a>
-        <a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort!.Songwriter" asp-route-nameMusic="@Model.Filter.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id">@Resources.Resource.Songwriter</a>
+        <sort-header action="Index" sort-order="@Model.Sort!.Name" name-music="@Model.Filter!.Name" id-genre="@Model.Filter.SelectedGenre.Id">@Resources.Resource.Name</sort-header>
+        <sort-header action="Index" sort-order="@Model.Sort!.Songwriter" name-music="@Model.Filter!.Name" id-genre="@Model.Filter.SelectedGenre.Id">@Resources.Resource.Songwriter</sort-header>
     </div>
     @if (Model.Musics.Count() != 0)
     {
@@ -78,26 +70,5 @@
     {
         <h2 class="not-found-h2">@Resources.Resource.NotFound!</h2>
     }
-    @if (Model.Page.TotalPages > 1)
-    {
-        <div class="pagination">
-            @if (Model.Page.HasPreviosPage)
-            {
-                <button class="element-pagination"><a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort.Current" asp-route-nameMusic="@Model.Filter.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id" asp-route-page="@previosPage">@Resources.Resource.Back</a></button>
-            }
-            else
-            {
-                <button disabled class="element-pagination"><a>@Resources.Resource.Back</a></button>
-            }
-            <span class="element-pagination">@Model.Page.Page - @Model.Page.TotalPages</span>
-            @if (Model.Page.HasNextPage)
-            {
-                <button class="element-pagination"><a class="a-btn" asp-action="Index" asp-route-sortorder="@Model.Sort.Current" asp-route-nameMusic="@Model.Filter.Name" asp-route-idGenre="@Model.Filter.SelectedGenre.Id" asp-route-page="@nextPage">@Resources.Resource.Forward</a></button>
-            }
-            else
-            {
-                <button disabled class="element-pagination"><a>@Resources.Resource.Forward</a></button>               
-            }
-        </div>
-    }
+    <pagination action="Index" pagination="@Model.Page" property-url-music="@Model.Filter.Name!" property-url-genre="@Model.Filter.SelectedGenre.Id" property-url-page="@Model.Page.Page" property-url-sort="@Model.Sort.Current"></pagination>
 </div>

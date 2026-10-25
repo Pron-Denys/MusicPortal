@@ -4,7 +4,7 @@ namespace MusicPortal.Models
     public class DataFilteringViewModel
     {
         public string? Name { get; set; }
-        public SelectList Genres { get; set; }
+        public List<Genre> Genres { get; set; }
         public Genre SelectedGenre { get; set; }
 
         public DataFilteringViewModel(string name, List<Genre> genres, Genre selectedGenre)
@@ -16,7 +16,7 @@ namespace MusicPortal.Models
                 SelectedGenre = temp;
             else
                 SelectedGenre = selectedGenre;              
-            Genres = new SelectList(genres, "Id", "Name", SelectedGenre);
+            Genres = genres;
         }
 
     }
